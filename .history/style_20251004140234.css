@@ -90,6 +90,7 @@ button:focus {
 }
 
 @media (max-width: 600px) {
+  /* Below lessens width of screen if user makes screen smaller */
   .currrency input {
     width: 200px;
   }
