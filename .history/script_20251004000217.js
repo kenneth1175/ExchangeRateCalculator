@@ -1,0 +1,7 @@
+const currencyEl_one = document.getElementByID("currency-one");
+const amountEl_one = document.getElementByID("amount-one");
+const currencyEl_two = document.getElementByID("currency-two");
+const amountEl_two = document.getElementByID("amount-two");
+
+function calculate() {}
+calculate();
