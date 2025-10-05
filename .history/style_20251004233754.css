@@ -81,9 +81,7 @@ p {
   font-size: 14px;
   padding: 0 10px;
 }
-
-/* Gets rid of outline on buttons  */
-select:focus,
+*/ Gets rid of outline on buttons */ select:focus,
 input:focus,
 button:focus {
   outline: 0;
