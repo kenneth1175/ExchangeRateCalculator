@@ -1,10 +1,9 @@
-/* Universal Code For The Color */
-/* :root {
+Universal Code For The Color */ :root {
   --primary-color: #5fbaa7;
 }
 
 /* *********************************************** */
-/* * {
+ {
   box-sizing: border-box;
 }
 
@@ -18,9 +17,9 @@ body {
   height: 100vh;
   margin: 0;
   padding: 20px;
-} */
+}
 
-/* h1 {
+h1 {
   color: var(--primary-color);
 }
 
@@ -39,9 +38,8 @@ p {
 
 .money-img {
   width: 150px;
-} */
-
-/* .currency {
+}
+*/ .currency {
   padding: 40px 0;
   display: flex;
   align-items: center;
@@ -79,18 +77,15 @@ p {
   color: var(--primary-color);
   font-size: 14px;
   padding: 0 10px;
-} */
-
-/* Gets rid of outline on buttons */
-
-/* select:focus,
+}
+*/ Gets rid of outline on buttons */ select:focus,
 input:focus,
 button:focus {
   outline: 0;
 }
 
 @media (max-width: 600px) {
-  .currrency input {
+  .currency input {
     width: 200px;
   }
-} */
+}
