@@ -3,12 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Araneta Exchange Rate Calculator</title>
-    <link rel="stylesheet" href="stylemaster.css" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Exchange Rate Calculator</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <img src="./img/money.png" alt="logo" class="money-img" />
-    <h1>Araneta Exchange Rate</h1>
+    <img src="img/money.png" alt="" class="money-img" />
+    <h1>Exchange Rate Calculator</h1>
     <p>Choose the currency and the amounts to get the exchange rate</p>
 
     <div class="container">
@@ -71,7 +72,9 @@
       </div>
 
       <div class="swap-rate-container">
-        <button class="btn" id="swap">Swap</button>
+        <button class="btn" id="swap">
+          Swap
+        </button>
         <div class="rate" id="rate"></div>
       </div>
 
@@ -92,7 +95,7 @@
           <option value="DKK">DKK</option>
           <option value="DOP">DOP</option>
           <option value="EGP">EGP</option>
-          <option value="EUR">EUR</option>
+          <option value="EUR" selected>EUR</option>
           <option value="FJD">FJD</option>
           <option value="GBP">GBP</option>
           <option value="GTQ">GTQ</option>
@@ -112,7 +115,7 @@
           <option value="NZD">NZD</option>
           <option value="PAB">PAB</option>
           <option value="PEN">PEN</option>
-          <option value="PHP" selected>PHP</option>
+          <option value="PHP">PHP</option>
           <option value="PKR">PKR</option>
           <option value="PLN">PLN</option>
           <option value="PYG">PYG</option>
@@ -132,6 +135,8 @@
         </select>
         <input type="number" id="amount-two" placeholder="0" />
       </div>
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>
